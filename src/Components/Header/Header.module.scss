@@ -1,0 +1,37 @@
+@import '../../Assets/variables';
+
+.mainContainer {
+  padding: 24px 0 24px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: Rubik One, sans-serif;
+  font-weight: 400;
+  font-size: $font-size-logo;
+  line-height: 23.44px;
+  color: $primary-color
+}
+
+.liButtons {
+  font-family: "Roboto Light", sans-serif;
+  font-weight: 400;
+  font-size: $font-size-small;
+  color: $primary-color;
+  line-height: 23.44px;
+}
+
+.uiContainer {
+  display: flex;
+  gap: 40px
+}
+
+.phoneNumber {
+  font-family: "Roboto Light", sans-serif;
+  font-weight: 600;
+  font-size: $font-size-phone-number;
+  color: $black-color;
+  line-height: 28.13px;
+}

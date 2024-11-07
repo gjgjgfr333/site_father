@@ -1,0 +1,118 @@
+/* Сброс всех отступов, полей, границ и устанавливает стандартные значения */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Сброс шрифта для body */
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Убирает подчеркивания у ссылок по умолчанию */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Убирает стили списков */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Сброс таблиц */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Сброс стилей для изображений и видео */
+img,
+picture,
+video,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
+/* Сброс кнопок */
+button {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* Сброс для инпутов и текстовых полей */
+input,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  border: none;
+}
+
+/* Убирает обводку при фокусе для мышиных событий, оставляя для клавиатуры */
+:focus-visible {
+  outline: none;
+}
+:focus {
+  outline: 2px solid #007bff;
+}
+
+/* Базовые стили для заголовков */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+/* Сброс блока кода */
+pre,
+code {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Поддержка box-sizing для HTML5 элементов */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* Сбросы для форм */
+fieldset {
+  border: none;
+}
+legend {
+  padding: 0;
+}
+
+/* Убирает ненужные рамки и отступы */
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 0;
+}

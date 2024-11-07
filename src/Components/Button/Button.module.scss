@@ -1,0 +1,20 @@
+@import "../../Assets/variables";
+
+.mainButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $orange-color;
+
+  font-family: "Roboto Light", sans-serif;
+  font-weight: 500;
+  font-size: $font-size-xsmall;
+  line-height: 21px;
+  color: $primary-color;
+
+
+  width: 210px;
+  height: 52px;
+
+
+}

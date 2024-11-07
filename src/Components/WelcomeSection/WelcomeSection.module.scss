@@ -1,0 +1,65 @@
+@import '../../Assets/variables';
+
+.mainContainer {
+  background: $mainGradient;
+  height: 100vh;
+  padding: 0 53px 0 100px;
+}
+
+.secondContainer {
+  display: flex;
+  gap: 50px;
+  margin-top: 30px;
+  align-items: center
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+
+
+  .mainText {
+    font-size: $font-size-main;
+    font-family: "Roboto Light", sans-serif;
+    font-weight: 700;
+    line-height: 58.25px;
+    text-align: left;
+    color: $primary-color;
+    margin-bottom: 16px;
+  }
+
+  .secondText {
+    font-size: $font-size-small;
+    font-family: "Roboto Light", sans-serif;
+    font-weight: 400;
+    line-height: 23.44px;
+    text-align: left;
+    color: $primary-color;
+    margin-bottom: 46px;
+  }
+}
+
+.imgContainer {
+  position: relative;
+  min-width: 767px;
+  height: 517px;
+
+  .buildImg {
+    width: 720px;
+    height: 480px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+  }
+
+  .orangeRectangle {
+    background: $orange-color;
+    width: 237px;
+    height: 195px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 4;
+  }
+}
