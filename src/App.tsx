@@ -1,14 +1,14 @@
-import { useState } from 'react'
 import {WelcomeSection} from "./Components/WelcomeSection/WelcomeSection.tsx";
+import {ServicesSection} from "./Components/ServicesSection/ServicesSection.tsx";
 
 function App() {
-  const [count, setCount] = useState(0)
 
-  return (
-    <>
-     <WelcomeSection/>
-    </>
-  )
+    return (
+        <>
+            <WelcomeSection/>
+            <ServicesSection/>
+        </>
+    )
 }
 
 export default App

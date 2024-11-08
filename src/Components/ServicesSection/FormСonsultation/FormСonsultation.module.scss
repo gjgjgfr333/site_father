@@ -1,0 +1,45 @@
+@import 'src/Assets/variables';
+
+.mainContainer {
+  background: $form-background;
+  position: relative;
+  display: flex;
+  padding: 0 13.7rem 3.6rem 5.6rem;
+  justify-content: space-between;
+  align-items: end;
+  height: 36rem;
+  width: 100vw;
+
+  .imgSmet {
+    position: relative;
+    z-index: 5;
+  }
+
+  .formContainer {
+    display: flex;
+    width: 61.5rem;
+    flex-direction: column;
+
+    .formText {
+      font-family: "Roboto Light", sans-serif;
+      font-weight: 600;
+      font-size: $font-size-phone-number;
+      line-height: 2.813rem;
+      color: $black-color;
+      margin-bottom: 2.3rem;
+    }
+
+    .inputContainer {
+      display: flex;
+      gap: 1.2rem;
+      margin-bottom: 4rem;
+      flex-direction: column;
+
+      .inputItem {
+        width: 44rem;
+        height: 5.2rem;
+        background: $primary-color;
+      }
+    }
+  }
+}

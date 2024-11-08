@@ -1,0 +1,84 @@
+@import "src/Assets/variables";
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+.infoContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  width: 50%;
+  margin-bottom: 6.1rem;
+
+  .infoItem {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+
+    .infoMainText {
+      font-size: $font-size-super;
+      font-family: "Roboto Light", sans-serif;
+      font-weight: 700;
+      line-height: 7.5rem;
+      color: $orange-color;
+    }
+
+    .infoSecondText {
+      font-size: $font-size-small;
+      font-family: "Roboto Light", sans-serif;
+      font-weight: 400;
+      line-height: 2.344rem;
+      color: $black-color;
+      width: 10rem;
+    }
+  }
+}
+
+.servicesText {
+  font-size: $font-size-title-section;
+  font-family: "Roboto Light", sans-serif;
+  font-weight: 600;
+  line-height: 4.219rem;
+  color: $black-color;
+}
+
+.exampleWorkContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6rem;
+  margin: 6.4rem 8rem 14.8rem 10rem;
+  flex-direction: row;
+
+  .exampleWorkItem {
+    width: 60rem;
+    display: flex;
+    gap: 2rem;
+
+    .textContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+
+      .exampleTextMain {
+        font-size: $font-size-phone-number;
+        font-family: "Roboto Light", sans-serif;
+        font-weight: 600;
+        line-height: 2.813rem;
+        color: $black-color;
+      }
+
+      .exampleTextSecond {
+        font-size: $font-size-small;
+        font-family: "Roboto Light", sans-serif;
+        font-weight: 400;
+        line-height: 2.344rem;
+        color: $black-color;
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 @import '../../Assets/variables';
 
 .mainContainer {
-  padding: 24px 0 24px 0;
+  padding: 2.4rem 0 2.4rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,7 +11,7 @@
   font-family: Rubik One, sans-serif;
   font-weight: 400;
   font-size: $font-size-logo;
-  line-height: 23.44px;
+  line-height: 2.3rem;
   color: $primary-color
 }
 
@@ -20,12 +20,12 @@
   font-weight: 400;
   font-size: $font-size-small;
   color: $primary-color;
-  line-height: 23.44px;
+  line-height: 2.3rem;
 }
 
 .uiContainer {
   display: flex;
-  gap: 40px
+  gap: 4rem
 }
 
 .phoneNumber {
@@ -33,5 +33,5 @@
   font-weight: 600;
   font-size: $font-size-phone-number;
   color: $black-color;
-  line-height: 28.13px;
+  line-height: 2.8rem;
 }
